@@ -3,7 +3,7 @@ import { BrowserRouter,Routes, Route ,Navigate } from 'react-router-dom';
 import {useSelector} from 'react-redux';
 import viteLogo from '/vite.svg';
 import Home from './pages/home/Home';
-import Profile from './pages/Profile/Profile';
+import Profile from './pages/profile/Profile';
 import Login from './pages/AuthForm/Login';
 import Register from './pages/AuthForm/Register';
 import Chat from './pages/chat/Chat';
