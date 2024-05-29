@@ -28,13 +28,18 @@ const user = useSelector((state) =>
        <BrowserRouter>
        <ToastContainer/>
        <Routes>
-        <Route path='/' element={user? <Home/> : <Login/>}/>
+        {/* <Route path='/' element={user? <Home/> : <Login/>}/>
         <Route path='/profile' element={ user ? <Profile/> : <Login/>} />
         <Route path='/register' element={ <Register/>}/>
         <Route path='/login' element={  <Login/>}/>
-        <Route path ='/chat' element = {user? <Chat/> : <Login/>}/>
+        <Route path ='/chat' element = {user? <Chat/> : <Login/>}/> */}
         
-       
+        <Route path='/' element={<Home/>}/>
+        <Route path='/profile' element={<Profile/>} />
+        <Route path='/register' element={ <Register/>}/>
+        <Route path='/login' element={  <Login/>}/>
+        <Route path ='/chat' element = {<Chat/>}/>
+        
       
        </Routes>
       
