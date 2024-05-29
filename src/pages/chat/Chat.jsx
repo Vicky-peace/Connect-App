@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { getChats, chatUser } from "../../redux/apiCall";
 import Conversation from "../../components/conversation1/Conversation";
 import { Link } from "react-router-dom";
-import NavIcons from "../../components/NavIcons/NavIcons";
+import NavIcons from "../../components/navIcons/NavIcons";
 import Chatbox from "../../components/chatBox/Chatbox";
 import { io } from 'socket.io-client';
 import "./chat.css";
