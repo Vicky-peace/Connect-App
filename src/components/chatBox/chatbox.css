@@ -1,0 +1,109 @@
+
+.chatBox{
+    flex: 6.5;
+}
+.chatOnline{
+    flex: 3;
+    background-color: var(--cardColor); 
+    position: sticky;
+    /* z-index: -1; */
+}
+
+.chatMenuWrapper{
+padding: 10px;
+background-color: var( --cardColor);
+height: 100%;
+flex: 2.5;
+position: sticky;
+overflow: scroll;
+overflow-x: hidden;
+}
+.ft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chatBoxWrapper {
+    padding: 10px;
+    background: linear-gradient(90deg, #DFD8DC, #F9DFEC);
+    height: 100vh;
+}
+.chatMenuWrapper  p span{
+    margin: 0px 10px;
+}
+.chatMenuWrapper input{
+    margin-top: 10px;
+    background-color: #B2A9A9;
+    border-radius: 20px;
+
+}
+.chatOnlineWrapper{
+    flex: 3;
+    z-index: 999;
+}
+.pinned ,.channels  , .messages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #B2A9A9;
+    border-radius: 20px;
+}
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(150, 232, 150);
+    border-radius: 20px;
+    cursor: pointer;
+}
+.group:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.chatBoxWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .chatBoxTop {
+    height: 100%;
+    overflow-y: scroll;
+    padding-right: 10px;
+  }
+.chatBoxBottom {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+.chatMessageInput {
+    width: 80%;
+    height: 90px;
+    padding: 10px;
+    position: relative;
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .chatSubmitButton {
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    margin-right: -8px;
+    cursor: pointer;
+  }
+  

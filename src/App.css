@@ -1,0 +1,48 @@
+:root {
+  --yellow: #ffd700; /* Gold */
+  --orange: #ff7f50; /* Coral */
+  --black: #000000; /* Black */
+  --gray: #808080; /* Gray */
+  --profileShadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25); /* Shadow */
+  --hrColor: #d3d3d3; /* Light Gray */
+  --cardColor: #f8f8f8; /* Off-White */
+  --buttonBg: linear-gradient(98.63deg, #008080 0%, #00bfbf 100%); /* Turquoise Gradient */
+  --inputColor: #f0f0f0; /* Light Gray */
+  --photo: #228B22; /* Forest Green */
+  --video: #4169e1; /* Royal Blue */
+  --location: #ff0000; /* Red */
+  --schedule: #daa520; /* Goldenrod */
+}
+.App{
+  overflow: hidden;
+  color: var(--black);
+  background: #f3f3f3;
+  padding: 1rem 1rem;
+}
+.blur{
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #a6ddf0;
+  filter: blur(72px);
+}
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  background: var(--buttonBg);
+  transition: all 100ms ease-out ;
+}
+.button:hover{
+  cursor: pointer;
+  color: coral;
+  background: transparent;
+  border: 2px solid coral;
+}
+::-webkit-scrollbar{
+  display: none;
+}

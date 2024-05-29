@@ -1,0 +1,35 @@
+/* .Home{
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 1rem;
+} */
+/* Default styles for all screen sizes */
+.Home {
+    position: relative;
+    display: grid;
+    grid-template-columns: 18rem auto 20rem;
+    gap: 1rem;
+  }
+  
+  /* Media query for screen widths less than or equal to 768px (e.g., mobile devices) */
+  @media (max-width: 768px) {
+    .Home {
+      grid-template-columns: 1fr; 
+    }
+  }
+  
+  /* Media query for screen widths between 768px and 1024px (e.g., tablets) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .Home {
+      grid-template-columns: 1fr; 
+    }
+  }
+  
+  /* Media query for screen widths greater than 1024px (e.g., desktops) */
+  @media (min-width: 1025px) {
+    .Home {
+      grid-template-columns: 18rem auto 20rem; 
+    }
+  }
+  
